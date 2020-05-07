@@ -1,0 +1,2 @@
+# batch
+il linguaggio batch è uno dei più sottovalutati, ma si riesce in poco tempo a creare dei funzionamenti automatizzati per l' utilizzo quotidiano, questa è la mia app, ovviamente senza un installer, state tranquilli non contiene virus, anche il vostro antivirus ve ne darà la conferma, ma se non doveste riuscire a scaricarlo oppure trovate di bug, non esitate a riferlo qua sotto nei commenti.
