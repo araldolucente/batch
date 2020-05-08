@@ -267,34 +267,5 @@ echo                  BENVENUTO NELLA SEZIONE DEI TUTORIAL!!
 echo ======================================================================
 echo qua puoi trovare dei tutotial sul miol canale youtube che potrebbero esserti utili :
 timeout 1 > nul
-start 
-:root
-set /p scegli=1.avvvia in Andrea 2.avvia come root :
-if %scegli%==1 goto :andy
-if %scegli%==2 goto :root1
-pause > nul
-goto :inizio4
-:andy
-goto :due
-pause > nul
-:root1
-set /p risp=
-echo inserisci la password di root :
-set /p risp=
-if [%risp%]==[kali] goto :root2
-if [%risp%]==[] goto adesso sei blocccato
-pause > nul 
-goto :adesso sei bloccato
-:root2
-set /p risp=
-echo sei sicuro di voler visualizzare tutte le righe di codice che compongono questo sistema? [y/n]
-set /p risp=
-if [%risp%]==y goto :root3
-if [%risp%]==n goto :andy
-pause > nul 
-goto :andy
-:root3
-echo benvenuto utente root!
-echo qui puoi vedere tutte le righe di codice del sistema
-pause > nul 
-type "C:\users\%userprofile%\desktop\Araldolucente assistant\Araldolucente assistant.bat"
+start www.youtube.com/channel/UCeai2gJ6TNgjeP1JNVmW-Ow
+pause > nul && goto :ini
