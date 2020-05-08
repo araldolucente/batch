@@ -61,7 +61,7 @@ goto :due
 :civetta
 :wlan
 "C:\users\%userprofile%\desktop
-echo on
+@echo on
 netsh wlan show wlanreport
 @echo off
 move "C:\ProgramData\Microsoft\Windows\WlanReport\wlan-report-latest.html" "C:\users\%userprofile%\Desktop\Araldolucente assistant"
