@@ -234,8 +234,6 @@ color b
 goto :ini
 :diciassette
 exit
-pause > nul
-goto :ini
 :99
 echo arrivederci 
 timeout 1 > nul
