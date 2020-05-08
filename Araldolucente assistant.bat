@@ -149,24 +149,25 @@ if errorlevel 195 echo controllare la connessione internet
 pause > nul
 goto :uno 
 :scritte
-set /p scegli=1.verde  2.verde acqua (s) 3.giallo (c) 4.giallo (s) 5.blu (c) 6.blu (s)  7.rosso (s) 8.rosso (c) 9.nero 10.grigio 11.celeste  12.viola (c) 13.viola (s) 14.bianco 15.grigio (c) 16.verde acqua 17.esci :
+set /p scegli=1.verde  2.verde acqua (s) 3.giallo (c) 4.giallo (s) 5.blu (c) 6.blu (s) 
 if %scegli%==1 goto :uno
 if %scegli%==2 goto :due
 if %scegli%==3 goto :tre
 if %scegli%==4 goto :quattro
 if %scegli%==5 goto :cinque
 if %scegli%==6 goto :sei
-if %scegli%==7 goto :sette
-if %scegli%==8 goto :otto
-if %scegli%==9 goto :nove
-if %scegli%==10 goto :dieci
-if %scegli%==11 goto :undici
-if %scegli%==12 goto :dodici
-if %scegli%==13 goto :tredici
-if %scegli%==14 goto :quattordici
-if %scegli%==15 goto :quindici
-if %scegli%==16 goto :sedici
-if %scelgi%==17 goto :diciassette
+set /p sc=7.rosso (s) 8.rosso (c) 9.nero 10.grigio 11.celeste  12.viola (c) 13.viola (s) 14.bianco 15.grigio (c) 16.verde acqua 17.esci :
+if %sc%==7 goto :sette
+if %sc%==8 goto :otto
+if %sc%==9 goto :nove
+if %sc%==10 goto :dieci
+if %sc%==11 goto :undici
+if %sc%==12 goto :dodici
+if %sc%==13 goto :tredici
+if %sc%==14 goto :quattordici
+if %sc%==15 goto :quindici
+if %sc%==16 goto :sedici
+if %sc%==17 goto :diciassette
 pause > nul
 goto :ini
 :uno
