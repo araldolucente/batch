@@ -224,6 +224,7 @@ timeout 1 > nul
 exit
 :github 
 start www.github.com/araldolucente/batch.git
+goto :ini
 :illis
 :dual
 cls
