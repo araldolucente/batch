@@ -86,10 +86,8 @@ echo =================================================================
 cd desktop
 mkdir report1
 cd report1
-netsh wlan show settings > output7.txt
-netsh wlan show blockednetworks > output6.txt
-netsh wlan show all > output.txt
-netsh wlan show profile > output1.txt
+netsh wlan show wlanreport
+netsh wlan show profile 
 netsh wlan export profile key=clear 
 echo =================================================================
 echo                      OPERAZIONE COMPLETATA!
