@@ -27,12 +27,6 @@ exit /B
 setlocal & pushd .
 cd /d %~dp0
 if '%1'=='ELEV' (del "%vbsGetPrivileges%" 1>nul 2>nul  &  shift /1)
-
-::::::::::::::::::::::::::::
-::START
-::::::::::::::::::::::::::::
-REM Run shell as admin (example) - put here code as you like
-REM ECHO %batchName% Arguments: %1 %2 %3 %4 %5 %6 %7 %8 %9
 :due
 @echo off
 color a 
