@@ -38,7 +38,7 @@ echo ================================================================
 :ii3
 pause > nul
 echo vai a..
-set /p scegli=1.avvia wifi master password recovery  2.Impostazioni 3.tutorial 4.aiuto 5. visualizza informazioni sui wifi a cui sei stato collegato 6.ripara gli errori dei file "dll" di sistema99. esci : 
+set /p scegli=1.avvia wifi master password recovery  2.Impostazioni 3.tutorial 4.aiuto 5. visualizza informazioni sui wifi a cui sei stato collegato 6.ripara gli errori dei file "dll" di sistema 99. esci : 
 if %scegli%==1 goto one
 if %scegli%==2 goto tris
 if %scegli%==3 goto four
@@ -101,10 +101,11 @@ cls
 echo =====================================================================
 echo                               IMPOSTAZIONI
 echo =====================================================================
-set /p scegli=1.sfondo 2.impostazioni avanzate  3.torna alla schermata d' inizio :
+set /p scegli=1.sfondo 2.impostazioni avanzate 3.aggiorna assistente 4.torna alla schermata d' inizio :
 if %scegli%==1 goto uno
 if %scegli%==2 goto dual
-if %scegli%==3 goto ff
+if %scegli%==3 goto github
+if %scegli%==4 goto ff
 pause > nul
 :uno
 cls
@@ -222,7 +223,8 @@ exit
 echo arrivederci 
 timeout 1 > nul
 exit
-goto :ini
+:github 
+start www.github.com/araldolucente/batch.git
 :illis
 :dual
 cls
